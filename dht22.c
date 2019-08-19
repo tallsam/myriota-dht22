@@ -1,22 +1,18 @@
-/* Fast DHT Lirary
+/* Fast DHT Libary for use with MyRiota dev board.
  *
- * Copyright (C) 2015 Sergey Denisov.
- * Written by Sergey Denisov aka LittleBuster (DenisovS21@gmail.com)
+ * Copyright (C) 2019 .
+ * Written by Sam Hassell (sam.hassell@dpird.wa.gov.au)
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public Licence
  * as published by the Free Software Foundation; either version 3
  * of the Licence, or (at your option) any later version.
  *
- * Original library written by Adafruit Industries. MIT license.
+ * Original library written by Sergey Denisov & Adafruit Industries. MIT license.
  */
 
 #include "dht22.h"
 #include "myriota_user_api.h"
-
-// #include <avr/io.h>
-// #include <util/delay.h>
-// #include <avr/interrupt.h>
 
 #define DHT_COUNT 6
 #define DHT_MAXTIMINGS 85
